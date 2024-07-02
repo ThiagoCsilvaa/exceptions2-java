@@ -41,7 +41,7 @@ long diff = checkOut.getTime()	- checkIn.getTime();
 return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
 
 }
-public void updateDates(Date checkIn, Date CheckOut) {
+public void updateDates(Date checkIn, Date CheckOut, Date checkOut) {
 	this.checkIn = checkIn;
 	this.checkOut = checkOut;
 }
